@@ -1,0 +1,1241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.top {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color:#1F2235 ;
+    position: fixed;
+       
+}
+
+
+body {
+    background-color:#23263A;
+
+}
+
+
+.logo {
+    width: 120px;
+    padding-left: 40px;
+}
+
+
+.navlink >a:hover {
+     color: brown;
+}
+
+
+.house {
+    height: 750px;
+
+}
+
+
+.navlink {
+    display: flex;
+    justify-content: space-between;
+    display: inline-block;
+}
+
+
+.navlink >a {
+    font-family: roboto;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: right;
+    justify-content: space-between;
+    color: white;
+    width: 500px;
+    margin-left: 550px ;
+}   
+
+
+.brand-icons {
+    font-family: "roboto";
+    font-size: 15px;
+    height: 40px;
+    width: 40px;
+    margin-top: 200px;
+    margin-bottom: 40px;
+    color: white;
+    background-color:#23263A ;
+    border-radius: 30px;
+    border-color: rgb(255, 99, 71);
+    border-style: solid;
+    margin-left: 20px;
+}
+
+
+.brand-icons:hover {
+    background-color: coral;
+}
+
+
+#face-logo {
+    margin-left: 60px;
+
+}
+
+
+.my-name {
+    font-family: "roboto";
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: -2px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    line-height: 50px;
+
+}
+
+
+.biography {
+    font-family: "roboto";
+    font-size: 30px;
+    width: 600px;
+    line-height: 35px;
+    color:#A9A9A9;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    
+}
+
+
+.my-pic {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 0px;
+    right:0px;
+    right: 200px;
+    top: 200px ;
+}
+
+
+.port-tube{
+    margin-top: 20px;
+    margin-left: 60px;
+    padding: 10px;
+    width: 120px;
+    border-radius: 30px;
+    border-color:rgb(255, 99, 71) ;
+    border-style: solid;
+    color: white;
+    background-color:#1F2235;
+}
+
+.port-tube:hover {
+    background-color: coral;
+}
+
+
+.youtube-button  {
+    margin-left: 10px;
+    padding: 10px;
+    width: 60px;
+    border: 0px;
+    border-radius:15px;
+    color: white;
+    background-color:rgb(255, 99, 71);
+    border-style: solid;
+}
+
+
+
+.sub-service {
+    font-family: roboto;
+    font-size: 20PX;
+    color:rgb(255, 99, 71);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+
+.main-service {
+    font-family: roboto;
+    font-size:60px;
+    font-weight: 50px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.paragraph-1 {
+     font-family: roboto;
+     text-align: center;
+     color:#A9A9A9 ;
+     width: 500px;
+     margin-left:400px;
+     margin-bottom: 20px;
+}
+
+
+.line {
+    color:rgb(255, 99, 71);
+    font-size: 100px;
+    margin-left:580px;
+    line-height: 20px;
+    
+}
+
+
+
+.headings {
+    font-family: roboto;
+    color: white;
+    line-height: 30px;
+    
+}
+
+
+.ipsum {
+    font-family: roboto;
+    width: 200px;
+    line-height: 20px;
+    font-size: 15px;
+    color:#A9A9A9;
+}
+
+
+.my-grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+.grid-icons {
+    color:rgb(255, 99, 71);
+    font-size: 40px;
+    font-weight: 30px;
+    line-height: 40px;
+
+}
+
+
+.grid-icons:hover {
+    background-color: white;
+}
+
+
+.card {
+    padding: 40px 20px;
+    width: 260px;
+    background-color:black;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right:50px;
+    border-radius: 10px;
+
+}
+
+.card:hover {
+    background-color:blueviolet;
+}
+
+
+.abt-section {
+    height: 700px;
+}
+
+
+
+
+.align {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.aboutme {
+    font-family: roboto;
+    font-size: 80px;
+    font-weight: 40px;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.para-abt {
+    font-family: roboto;
+    color: #A9A9A9;
+    width: 500px;
+    margin-left: 380px;
+    margin-bottom: 20px;
+}
+
+.line2 {
+    color:crimson;
+    font-size: 100px;
+    line-height: 20px;
+}
+
+.image2 {
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.flexbox {
+    display: flex;
+}   
+
+.hi-abt {
+    font-family: roboto;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-left: 200px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+}
+
+.para2 {
+    font-family: roboto;
+    font-size: 20px;
+    color: #A9A9A9;
+    width: 600px;
+    margin-left: 200px;
+    margin-right: 35px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.para3 {
+    font-family: roboto;
+    font-size: 20px;
+    color:#A9A9A9; 
+    width: 500px;
+    margin-left: 200px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+
+.flex-vitae {
+    display: inline-block;
+    margin-left:200px;
+    width: 150px;
+}
+
+
+.info-1 {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight:30px;
+    color: crimson;
+}
+
+
+.info-2 {
+    font-family: roboto;
+    font-size: 17px;
+    font-weight: 25px;
+    color: white;
+}
+
+
+.sk-section {
+    height: 700px;
+}
+
+.flexbox2 {
+    display:flex ;
+}
+
+.expert {
+    font-family: roboto;
+    font-weight: bolder;
+    color: coral;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+
+}
+
+
+.work {
+    font-family: roboto;
+    font-size: 90px;
+    font-weight: 900;
+    color: white;
+    width: 500px;
+    line-height: 90px;
+    letter-spacing: -2px;
+    margin-right: 250px;
+    margin-left: 50px;
+    margin-bottom:40px ;
+}
+
+.phasel {
+    font-family: roboto;
+    font-weight: 50px;
+    width: 380px;
+    color: white;
+    margin-left:50px ;
+    margin-bottom: 40px;
+}
+
+.hire {
+    font-family: roboto;
+    font-weight: 20px;
+    margin-left: 50px;
+    padding: 12px 30px;
+    border-radius: 40px;
+    border-style: solid;
+    background-color:#1F2235 ;
+    border-color:coral ;
+    color: white;
+}
+
+.language {
+    margin-top: 180px;
+}
+
+
+.script {
+    text-align: start;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    color: white;
+}
+
+
+.rope {
+    height: 2px;
+    border-color:coral;
+}
+
+
+.porlio {
+    font-family: roboto;
+    font-size: 80px;
+    font-weight: 40px;
+    color: white;
+    width: 10px;
+    margin-left: 450px;
+}
+
+
+.wordpress {
+    font-family: roboto;
+    font-size: 20px;
+    color:#A9A9A9; 
+    text-align: center;
+    width: 600px;
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+.port-section {
+       height: 2400px;
+}
+
+
+
+.line3 {
+    margin-left:570px;
+    margin-bottom: 50px;
+    color:coral;
+    line-height: 20px;
+    font-size: 100px;
+}
+
+
+.butt {
+    font-size: 18px;
+    background-color: #1F2235;
+    border-color: coral;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 25px;
+    width: 120px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+
+
+.nav-list {
+    margin-top: 10px;
+}
+
+
+.butt:hover {
+    background-color: coral;
+}
+
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    list-style:none;
+    font-size: 20px;
+    color: white;
+    margin-left: 350px;
+    margin-bottom: 30px;
+}
+
+
+.grid2 {
+    display: grid;
+    grid-template-columns:400px 400px 400px;
+    column-gap: 1px;
+    
+}   
+
+
+.grid-picture {
+      resize: both;
+      width: 100%;
+      height: auto;
+}
+
+
+.room {
+    height: 900px;
+}
+
+
+
+.plan {
+    text-align: center;
+    color: crimson;
+}
+
+
+
+.prize {
+    font-family: roboto;
+    font-size: 50px;
+    font-weight: 900px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+}
+
+
+.dummy {
+    font-family: roboto;
+    font-size: 20px;
+    text-align: center;
+    color:#A9A9A9;
+    width: 600px;
+    margin-left: 300px;
+}
+
+
+
+.line4 {
+    margin-left: 570px;
+    font-size: 80px;
+    font-weight: 700px;
+    line-height: 50px;
+    color:crimson ;
+}
+
+
+
+.linz {
+    width: 300px;
+    color: gray;
+    font-size: small;
+    font-weight: 10px;
+}
+
+
+
+.flex-carriage {
+    display: flex;
+    justify-content:space-between;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+
+
+
+.flexy-bag {
+    padding: 30px;
+    background-color:black;
+    border-radius: 20px;
+    border-color: white;
+    border-style: solid;
+}
+
+
+
+
+.flexy-mid {
+    padding:30px;
+    background-color: black;
+    border-radius:20px;
+    border-color: crimson;
+    border-style:solid;
+}
+
+
+
+.flexy-bag:hover {
+    background-color: tomato;
+}
+
+
+
+.flexy-mid:hover {
+    background-color: green;
+}
+
+
+
+
+.basy {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+}
+
+
+
+.rem {
+    font-family: roboto;
+    font-size: 10px;
+
+}
+
+
+
+.figure {
+    font-size: 90px;
+    font-weight: 600px;
+    color: white;
+    text-align: center;
+}
+
+
+.gigs-5 {
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 80px;
+    color: white;
+    text-align: center;
+    list-style: none;
+    line-height: 50px;
+}
+
+
+.dollar {
+    font-size: 30px
+ }
+
+
+
+
+
+.chase {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 40px;
+    width: 120px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 90px;
+    color: white;
+    border-color: crimson;
+    background-color:black;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+
+
+.flex-house {
+    display: flex;
+    justify-content: space-between;
+    height:400px;
+    background-color:#1F2235;    
+}
+
+
+
+
+.flex-tag {
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+
+.top-icons {
+    font-size: 50px;
+    color: white;
+    margin-left: 10px;
+}
+
+
+.numbers {
+    font-family: roboto;
+    font-size:60px;
+    font-weight:bolder;
+    color:brown;
+    line-height: 90px;
+}
+
+
+
+.letters {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 50px;
+    color: white;
+
+}
+
+
+
+.flex-all {
+    display: flex;
+    height: 700px;
+
+}
+
+
+.monial {
+    font-family:roboto;
+    font-size: 18px;
+    font-weight: 10px;
+    color: crimson;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+
+
+.clients {
+    font-family: roboto;
+    font-size:50px;
+    font-weight: 40px;
+    color: white;
+    margin-top: 30px;
+    margin-left:50px;
+    width: 400px;
+}
+
+
+
+.justo {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 10px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    line-height: 25px;
+    width: 500px;
+}
+
+
+
+.moore {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 10px;
+    color: white;
+    background-color: #1F2235;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 200px;
+    padding:20px 20px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: crimson;
+
+}
+
+
+
+.moore:hover {
+    background-color: crimson;
+}
+
+
+.virtue {
+    font-family:roboto;
+    font-size:18px;
+    font-style: italic;
+    font-weight:30px;
+    line-height: 30px;
+    color: white;
+    margin-top: 120px;
+    margin-left: 120px;
+    padding: 50px;
+    width: 500px;
+    background-color:#1F2235;
+}
+
+
+
+
+.stars {
+    font-size: 20px;
+    color: crimson;
+    margin-left:100px;
+}
+
+
+
+.flex-3 {
+    width: 600px;
+}
+
+
+.apostrophe {
+     font-size:40px;
+     font-weight:70px;
+     color: white;
+}
+
+
+
+.flex-last {
+    display: flex;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+
+
+.pick-img {
+    height: 70px;
+}
+
+
+
+.otton {
+    border-color: none;
+    border-radius:30px;
+}
+
+
+
+
+.logy {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 15px;
+    line-height: 30px;
+    color: white;
+   width:250px;
+}
+
+
+
+.inline {
+    display: flex;
+    padding: 5px 5px;
+    margin-top: 12px;
+    margin-left: 180px;
+    border-radius: 5px;
+}
+
+
+
+.raund {
+    width: 40px;
+    background-color: #1F2235;
+    border-color: white;
+    border-radius: 90px;
+    border-style: solid;
+    color: white;
+}
+
+
+
+.raund2 {
+    margin-left: 20px;
+    width: 40px;
+    background-color: #1F2235;
+    border-color: white;
+    border-radius: 120px;
+    border-style: solid;
+    color: white;
+}
+
+
+
+.flex-text {
+    height: 250px;
+    color: darkgrey;
+    display: flex;
+    justify-content: space-between;
+    width:1500px;
+    padding-top: 90px;
+    padding-left: 50px;
+    padding-right: 370px;
+    background-color:#1F2235 ;
+
+}
+
+
+
+.post {
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 10px;
+    text-align: center;
+    margin-top: 90px;
+    color: coral;
+}
+
+
+
+
+.blogy {
+    font-family: roboto;
+    font-size:50px;
+    font-weight:40px;
+    text-align: center;
+    margin-top: 20px;
+    color:white;
+
+}
+
+
+
+
+.loem {
+    font-family: roboto;
+    font-size:20px;
+    width:600px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 300px;
+    color:gray;
+
+}
+
+
+
+
+.dashline {
+    margin-left: 570px;
+    font-size: 80px;
+    font-weight: 700px;
+    line-height: 50px;
+    color:coral;
+}
+
+
+
+
+.style5 {
+    resize: both;
+    width: 385px;
+    height: 280px;   
+}
+
+
+
+
+.flex-plate {
+    height: 450px;
+    display:flex;
+    margin-top: 60px;
+}
+
+
+
+
+.plate {
+    margin-left:25px;
+    background-color:#1F2235;
+}
+
+
+
+
+.one-word {
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 10px;
+    line-height: 60px;
+    padding-left: 20px;
+    color:crimson; 
+}
+
+
+
+
+
+.two-words {
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 10px;
+    line-height: 60px;
+    padding-left:20px;
+    color:white; 
+}
+
+
+
+.two-graphs {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 20px;
+    width: 300px;
+    padding-left:20px;
+    color:white; 
+
+}
+
+
+
+
+.two-heads {
+    font-size: 20px;
+    font-weight: 20px;
+    padding-left:20px;
+    line-height: 60px;
+    color:crimson; 
+
+}
+
+
+
+
+.query {
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 10px;
+    text-align: center;
+    margin-top: 100px;
+    color: coral; 
+}
+
+
+
+
+.phone {
+    font-family: roboto;
+    font-size:50px;
+    font-weight:40px;
+    text-align: center;
+    margin-top: 20px;
+    color:white; 
+}
+
+
+
+
+.dumtext {
+    font-family: roboto;
+    font-size:20px;
+    width:600px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left:300px;
+    color:gray;
+}
+
+
+
+.dash3 {
+    margin-left: 570px;
+    font-size: 80px;
+    font-weight: 700px;
+    line-height: 50px;
+    color:coral;
+}
+
+
+
+.flex-endy {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin-top: 50px;
+    margin-left: 180px;
+    margin-right: 180px;
+    
+
+}
+
+
+
+.flexem {
+    padding: 45px;
+    margin-left: 10px;
+    display: flex;
+    background-color:#1F2235; 
+}
+
+
+
+.top-head {
+    font-family: roboto;
+    font-size: 17px;
+    font-weight: 7px;
+    width: 150px;
+    color: white;
+}
+
+
+
+.spanky {
+    font-size: 35px;
+    font-weight: 20px;
+    margin-right: 30px;
+    color: crimson;
+}
+
+
+
+.info-data {
+    margin-top: 60px;
+    margin-left:190px;
+    
+}
+
+
+.imput {
+    width: 440px;
+    padding: 20px;
+    color: white;
+    background-color:#1F2235;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+.imsub {
+    width: 880px;
+    padding: 20px;
+    color: white;
+    background-color:#1F2235;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+.imsub2 {
+    width: 880px;
+    padding: 70px;
+    color: white;
+    background-color:#1F2235;
+    border: none;
+    border-radius: 10px; 
+}
+
+
+.last-button {
+    margin-top:30px;
+    margin-bottom: 50px;
+    padding: 25px;
+    background-color: crimson;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    width: 250px;
+}
+
+
+
+.footy {
+    height: 600px;
+    background-color: #1F2235;
+}
+
+
+.loogo {
+    width: 120px;
+    margin-top:100px;
+    margin-left: 550px;
+}
+
+
+.amet {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+    margin-left: 250px;
+    width: 750px;
+}
+
+
+
+.brandy {
+    margin-top: 50px;
+    margin-left: 500px;
+}
+
+
+
+.brandy-icons {
+    font-family: "roboto";
+    font-size: 15px;
+    height: 40px;
+    width: 45px;
+    color: white;
+    background-color:#23263A ;
+    border-radius: 30px;
+    border: none;
+}
+
+
+
+.brandy-icons:hover {
+    background-color: coral;
+}
+
+
+
+.copyright {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+}
+
+
+
+.red {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 10px;
+    color: crimson;
+}
+
+
+
